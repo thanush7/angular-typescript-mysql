@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merge borders */
+    font-family: Arial, sans-serif;
+    text-align: left; /* Align text to the left */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Add border */
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #4CAF50; /* Table header background */
+    color: white; /* Table header text color */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for rows */
+  }
+  
+  tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+  }
+  
